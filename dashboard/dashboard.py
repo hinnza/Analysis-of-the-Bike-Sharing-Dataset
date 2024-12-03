@@ -37,7 +37,7 @@ def create_weather_effect_df(df):
     return weather_df
 
 # Load dataset
-data = pd.read_csv("hour.csv")
+data = pd.read_csv("./hour.csv")
 
 # Sidebar for filters
 st.sidebar.title("Filters")
